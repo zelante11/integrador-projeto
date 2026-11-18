@@ -1,0 +1,282 @@
+{
+ "goals": [
+  {
+   "id": "condicionamento",
+   "name": "Condicionamento",
+   "icon": "pulse-outline",
+   "description": "Mais fôlego, resistência e disposição no dia a dia."
+  },
+  {
+   "id": "bem-estar",
+   "name": "Bem-estar",
+   "icon": "leaf-outline",
+   "description": "Treinos leves para mobilidade, postura e saúde geral."
+  },
+  {
+   "id": "hipertrofia",
+   "name": "Hipertrofia",
+   "icon": "barbell-outline",
+   "description": "Treinos estruturados para ganho de massa muscular."
+  },
+  {
+   "id": "emagrecimento",
+   "name": "Emagrecimento",
+   "icon": "flame-outline",
+   "description": "Gasto calórico e definição com circuitos e cardio."
+  }
+ ],
+ "workouts": [
+  {
+   "id": "hip-a",
+   "goalId": "hipertrofia",
+   "name": "Treino A",
+   "focus": "Peito e tríceps",
+   "exercises": [
+    {
+     "name": "Supino reto",
+     "sets": 4,
+     "reps": "8-10"
+    },
+    {
+     "name": "Supino inclinado com halteres",
+     "sets": 3,
+     "reps": "10-12"
+    },
+    {
+     "name": "Crucifixo",
+     "sets": 3,
+     "reps": "12"
+    },
+    {
+     "name": "Tríceps corda",
+     "sets": 3,
+     "reps": "12"
+    }
+   ]
+  },
+  {
+   "id": "hip-b",
+   "goalId": "hipertrofia",
+   "name": "Treino B",
+   "focus": "Costas e bíceps",
+   "exercises": [
+    {
+     "name": "Puxada frontal",
+     "sets": 4,
+     "reps": "8-10"
+    },
+    {
+     "name": "Remada curvada",
+     "sets": 3,
+     "reps": "10"
+    },
+    {
+     "name": "Remada baixa",
+     "sets": 3,
+     "reps": "12"
+    },
+    {
+     "name": "Rosca direta",
+     "sets": 3,
+     "reps": "10"
+    }
+   ]
+  },
+  {
+   "id": "hip-c",
+   "goalId": "hipertrofia",
+   "name": "Treino C",
+   "focus": "Pernas e ombros",
+   "exercises": [
+    {
+     "name": "Agachamento",
+     "sets": 4,
+     "reps": "8-10"
+    },
+    {
+     "name": "Leg press",
+     "sets": 3,
+     "reps": "12"
+    },
+    {
+     "name": "Mesa flexora",
+     "sets": 3,
+     "reps": "12"
+    },
+    {
+     "name": "Desenvolvimento com halteres",
+     "sets": 3,
+     "reps": "10"
+    }
+   ]
+  },
+  {
+   "id": "con-a",
+   "goalId": "condicionamento",
+   "name": "Treino A",
+   "focus": "Circuito full body",
+   "exercises": [
+    {
+     "name": "Agachamento livre",
+     "sets": 3,
+     "reps": "15"
+    },
+    {
+     "name": "Flexão de braço",
+     "sets": 3,
+     "reps": "12"
+    },
+    {
+     "name": "Remada com elástico",
+     "sets": 3,
+     "reps": "15"
+    },
+    {
+     "name": "Prancha",
+     "sets": 3,
+     "reps": "30 s"
+    }
+   ]
+  },
+  {
+   "id": "con-b",
+   "goalId": "condicionamento",
+   "name": "Treino B",
+   "focus": "Cardio intervalado",
+   "exercises": [
+    {
+     "name": "Corrida na esteira (tiros)",
+     "sets": 6,
+     "reps": "1 min"
+    },
+    {
+     "name": "Polichinelo",
+     "sets": 3,
+     "reps": "40"
+    },
+    {
+     "name": "Corda naval",
+     "sets": 4,
+     "reps": "30 s"
+    },
+    {
+     "name": "Burpee",
+     "sets": 3,
+     "reps": "10"
+    }
+   ]
+  },
+  {
+   "id": "be-a",
+   "goalId": "bem-estar",
+   "name": "Treino A",
+   "focus": "Mobilidade e postura",
+   "exercises": [
+    {
+     "name": "Alongamento de quadril",
+     "sets": 2,
+     "reps": "30 s"
+    },
+    {
+     "name": "Ponte de glúteos",
+     "sets": 3,
+     "reps": "12"
+    },
+    {
+     "name": "Remada com elástico",
+     "sets": 3,
+     "reps": "15"
+    },
+    {
+     "name": "Prancha",
+     "sets": 3,
+     "reps": "20 s"
+    }
+   ]
+  },
+  {
+   "id": "be-b",
+   "goalId": "bem-estar",
+   "name": "Treino B",
+   "focus": "Full body leve",
+   "exercises": [
+    {
+     "name": "Agachamento com apoio",
+     "sets": 3,
+     "reps": "12"
+    },
+    {
+     "name": "Flexão inclinada",
+     "sets": 3,
+     "reps": "10"
+    },
+    {
+     "name": "Elevação lateral",
+     "sets": 3,
+     "reps": "12"
+    },
+    {
+     "name": "Caminhada leve",
+     "sets": 1,
+     "reps": "20 min"
+    }
+   ]
+  },
+  {
+   "id": "em-a",
+   "goalId": "emagrecimento",
+   "name": "Treino A",
+   "focus": "Circuito metabólico",
+   "exercises": [
+    {
+     "name": "Agachamento com salto",
+     "sets": 4,
+     "reps": "12"
+    },
+    {
+     "name": "Kettlebell swing",
+     "sets": 4,
+     "reps": "15"
+    },
+    {
+     "name": "Flexão de braço",
+     "sets": 3,
+     "reps": "12"
+    },
+    {
+     "name": "Mountain climber",
+     "sets": 3,
+     "reps": "30 s"
+    }
+   ]
+  },
+  {
+   "id": "em-b",
+   "goalId": "emagrecimento",
+   "name": "Treino B",
+   "focus": "Força e cardio",
+   "exercises": [
+    {
+     "name": "Leg press",
+     "sets": 3,
+     "reps": "15"
+    },
+    {
+     "name": "Remada baixa",
+     "sets": 3,
+     "reps": "15"
+    },
+    {
+     "name": "Supino reto",
+     "sets": 3,
+     "reps": "12"
+    },
+    {
+     "name": "Esteira inclinada",
+     "sets": 1,
+     "reps": "15 min"
+    }
+   ]
+  }
+ ]
+}
